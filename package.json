@@ -1,0 +1,27 @@
+{
+  "name": "udpul",
+  "version": "0.0.1",
+  "description": "UDP Transport for UltraLight",
+  "main": "bin/routeMqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/routeMqtt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequiel-umu/UDPUL.git"
+  },
+  "keywords": [
+    "udp",
+    "ultralight"
+  ],
+  "author": "Ezequiel Santamaría Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezequiel-umu/UDPUL/issues"
+  },
+  "homepage": "https://github.com/ezequiel-umu/UDPUL#readme",
+  "dependencies": {
+    "mqtt": "^1.13.0"
+  }
+}
